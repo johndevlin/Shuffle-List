@@ -30,3 +30,22 @@ $('.mix-it-up').click(function(){
 	$('.output').html(vPool);
 		vPool="";
 });
+
+$('input.add-input');
+$('p.add-to-list');
+
+$('p.add-to-list').click(function(){
+	
+	if ( $('input.add-input').val().length == 0 ) {
+		
+	}
+	
+	else {
+		newValue = $('input.add-input').val();
+
+		$('ul.naughty-list li:last').after("<li>" + newValue + "</li>");
+		$('input.add-input').val("");
+	}
+
+});
+
