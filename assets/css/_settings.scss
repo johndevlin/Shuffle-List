@@ -1,0 +1,43 @@
+
+/*************
+	Variables
+*/
+
+/* Colours */
+
+$white: #ffffff;
+$white-grey: #eeeeee;
+$light-grey: #777777;
+$grey: #333333;
+$dark-grey: #111111;
+
+$red: #dd4433;
+
+$base-colour: $red;
+$body-colour: $light-grey;
+$heading-colour: $grey;
+$background-colour: $white;
+
+
+/* Margins */
+
+$sitemargin: 50px;
+
+
+/* Typography */
+
+/* Helvetica */
+
+$helvetica: 'Helvetica Neue', Helvetica, Arial, san-serif;
+
+@mixin helvetica-regular {
+	font-family: $helvetica;
+	font-weight: normal;
+}
+
+@mixin helvetica-bold {
+	font-family: $helvetica;
+	font-weight: bold;
+}
+
+
