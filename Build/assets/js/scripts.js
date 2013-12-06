@@ -36,9 +36,7 @@ $('p.add-to-list');
 
 $('p.add-to-list').click(function(){
 	
-	if ( $('input.add-input').val().length == 0 ) {
-		
-	}
+	if ( $('input.add-input').val().length == 0 ) {}
 	
 	else {
 		newValue = $('input.add-input').val();
@@ -47,5 +45,9 @@ $('p.add-to-list').click(function(){
 		$('input.add-input').val("");
 	}
 
+});
+
+$('ul.naughty-list li').click(function(){
+	$(this).remove();
 });
 

@@ -149,6 +149,15 @@ div#main {
 }
 
 
+ul.naughty-list li {
+	cursor: pointer;
+	padding-left: 20px;
+	
+	&:hover {
+		background: url('/img/cross.png') no-repeat left center;
+	}
+}
+
 
 /**********
 	Footer

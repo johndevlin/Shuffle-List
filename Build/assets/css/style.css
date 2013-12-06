@@ -383,6 +383,12 @@ div#main {
   color: #dd4433;
   cursor: pointer; }
 
+ul.naughty-list li {
+  cursor: pointer;
+  padding-left: 20px; }
+  ul.naughty-list li:hover {
+    background: url("/img/cross.png") no-repeat left center; }
+
 /**********
 	Footer
 */
